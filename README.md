@@ -1,27 +1,39 @@
-# 🕹️Etch-a-Sketch
+# 🕹️ Etch-a-Sketch
 
-- Es un proyecto que simula un juguete que graba bocetos.
-- Pondra a prueba la manipulación del DOM.
-- Mantener las buenas prácticas es clave.
+Proyecto inspirado en el clásico juguete **Etch-a-Sketch**, desarrollado con **HTML, CSS y JavaScript puro**.
 
-> [!CAUTION]
-> Holas
+Su objetivo principal es practicar la **manipulación del DOM**, el manejo de eventos y la generación dinámica de elementos en la web.
 
-### Paso 1 - Estructura básica de proyecto
+---
+
+## 🎯 Objetivo del proyecto
+
+- Comprender cómo interactuar con el DOM usando JavaScript
+- Crear elementos HTML de forma dinámica
+- Manejar eventos del mouse
+- Aplicar lógica básica para controlar el comportamiento de la interfaz
+
+---
+
+## 🧠 ¿Qué hace el programa?
+
+- Genera una hoja cuadriculada de tamaño configurable
+- Permite dibujar pasando el mouse sobre los cuadrados
+- Mantiene el dibujo de forma permanente
+- Permite reiniciar la cuadrícula y cambiar la resolución (cantidad de píxeles)
+
+---
+
+## 📁 Estructura del proyecto
 
 ```text
-📁eatch-a-sketch
+📁 etch-a-sketch
+│
+├── index.html
+├── css/
+│   └── style.css
+├── js/
+|    └── script.js
 |
-├─ index.html
-├─ css/
-|  └─ style.css
-└─ js/
-   └─ script.js
+└── README.md
 ```
-
-- Tendrá un botón de reseteo de cuadrícula
-- Un contenedor donde se generan todos los cuadrados
-
-### Paso 2 - Crear cuadrícula en JavaScript
-
-- No escribir cada cuadrado en HTML, sino en JavaScript.
